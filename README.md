@@ -3,6 +3,15 @@
 Cueue is a generic job queue built on top of CouchDB and CouchApps
 with the goal of being universally accessible and self contained.
 
+# Install
+
+First install [node.couchapp.js](https://github.com/mikeal/node.couchapp.js)
+
+Then push Cueue into your CouchDB instance:
+
+    couchapp push app.js http://localhost:5984/cueue
+
+
 # Create a new job
 
     curl -X POST http://localhost:5984/cueue/_design/cueue/_update/enqueue -d "foo=bar"
