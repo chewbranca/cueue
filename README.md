@@ -36,4 +36,4 @@ update automatically.
 
 ## License
 
-Apache V2.0
+Apache v2.0
